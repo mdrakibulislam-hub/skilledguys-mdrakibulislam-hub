@@ -7,19 +7,21 @@ const JobsContainer = () => {
 
     return (
 
-        <div className='default-container'>
+        <div className='default-container flex flex-col justify-center'>
 
-            <h1
-                className='font-bold text-5xl text-center'
-            >
-                Featured Jobs
-            </h1>
+            <div>
+                <h1
+                    className='font-bold text-5xl text-center'
+                >
+                    Featured Jobs
+                </h1>
 
-            <p
-                className='font-medium text-base text-slate-500 text-center py-8'
-            >
-                Explore thousands of job opportunities with all the information you need. Its your future
-            </p>
+                <p
+                    className='font-medium text-base text-slate-500 text-center py-8'
+                >
+                    Explore thousands of job opportunities with all the information you need. Its your future
+                </p>
+            </div>
 
             <div
                 className='grid grid-cols-2 gap-8'
@@ -27,6 +29,10 @@ const JobsContainer = () => {
 
                 {jobsContext.map(jobInfo => <JobsCard key={jobInfo._id} jobInfo={jobInfo}></JobsCard>)}
             </div>
+
+            <button
+                className='btn-primary mx-auto my-16'
+            >See All</button>
 
         </div>
     );
