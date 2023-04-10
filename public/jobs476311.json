@@ -1,17 +1,17 @@
 {
     "_id": 476311,
-    "company-logo": "https://i.ibb.co/wRB4QGk/netflix.png",
-    "job-title": "Data Scientist",
-    "company-name": "Netflix",
-    "work-location": "Remote",
+    "companyLogo": "https://i.ibb.co/wRB4QGk/netflix.png",
+    "jobTitle": "Data Scientist",
+    "companyName": "Netflix",
+    "workLocation": "Remote",
     "location": "Headquarters location",
-    "time-type": "Full time",
+    "timeType": "Full time",
     "salary": 55000,
     "description": "skilled in mathematics, statistics, and computer science to extract insights and knowledge from large and complex data sets. can work on various tasks such as data cleaning and preprocessing, statistical analysis, machine learning, and data visualization.",
     "responsibility": "Develop and implement data-driven solutions to solve complex business problems.Analyze large and complex data sets to identify patterns and insights that can drive business decisions. Build and deploy predictive models using machine learning algorithms. Collaborate with cross-functional teams to identify opportunities for data-driven solutions that can drive business growth. Communicate findings and insights to non-technical stakeholders in an easy-to-understand manner. Stay up-to-date with the latest developments in data science and machine learning to improve the quality of work. Continuously evaluate and improve the performance of models and algorithms. Identify and evaluate new data sources to improve the quality of data and analysis. Design and conduct experiments to test hypotheses and evaluate the effectiveness of models and algorithms. Apply statistical techniques to test the significance of findings and validate the accuracy of models",
-    "educational-requirements": "B.Sc in Computer Science",
+    "educationalRequirements": "B.Sc in Computer Science",
     "experience": "4 years",
-    "contact-information": {
+    "contactInformation": {
         "phone": "805-169-1716",
         "email": "jobs@netflix.com"
     }

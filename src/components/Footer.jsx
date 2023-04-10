@@ -7,7 +7,7 @@ const Footer = () => {
             className='bg-neutral py-8'
         >
             <div
-                className='default-container justify-between gap-8 border-b border-secondary py-6 grid grid-cols-6'
+                className='default-container justify-between gap-8 border-b border-gray-500 py-6 grid grid-cols-6'
             >
                 <div className='flex flex-col gap-3 justify-center col-span-2 w-8/12'>
                     <h1
@@ -63,8 +63,8 @@ const Footer = () => {
             <div
                 className='flex justify-between default-container py-6'
             >
-                <p className='foot-text'>@2023 CareerHub. All Rights Reserved</p>
-                <p className='foot-text'>Powered by CareerHub</p>
+                <p className='text-gray-500 text-sm'>@2023 CareerHub. All Rights Reserved</p>
+                <p className='text-gray-500 text-sm'>Powered by CareerHub</p>
             </div>
 
         </div>

@@ -21,3 +21,7 @@
 .foot-text {
     @apply text-base text-[#BABABA]
 }
+
+.job-page-banner {
+    background-image: url('/src/assets/job-page-bg.jpg');
+}

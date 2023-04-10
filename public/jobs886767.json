@@ -1,17 +1,17 @@
 {
     "_id": 886767,
-    "company-logo": "https://i.ibb.co/LQsnDSw/google.png",
-    "job-title": "DevOps Engineer",
-    "company-name": "Google",
-    "work-location": "Remote",
+    "companyLogo": "https://i.ibb.co/LQsnDSw/google.png",
+    "jobTitle": "DevOps Engineer",
+    "companyName": "Google",
+    "workLocation": "Remote",
     "location": "United States.",
-    "time-type": "Full time",
+    "timeType": "Full time",
     "salary": 19000,
     "description": "developing and maintaining the infrastructure that supports software development, testing, and deployment. They work closely with software developers, system administrators, and other IT professionals to design, implement, and maintain automated deployment pipelines, build and release management systems, and monitoring and logging tools. They use scripting languages, configuration management tools, and cloud services to automate and streamline the deployment and management of applications, and ensure that systems are secure, reliable, and scalable. They also troubleshoot and resolve issues related to system and software deployments, and continuously improve the performance, efficiency, and reliability of software development and deployment processes.",
     "responsibility": "Design, implement, and maintain automated deployment pipelines and build/release management systems Develop and maintain scripts and automation tools for system and software deployment, monitoring, and management Implement and manage configuration management tools, such as Ansible, Puppet, or Chef Work with software developers to ensure that applications are deployable, scalable, and secure Ensure that systems are continuously monitored for performance, security, and reliability Troubleshoot and resolve issues related to system and software deployments Continuously improve the performance, efficiency, and reliability of software development and deployment processes Keep up-to-date with emerging trends and technologies in DevOps and apply them to enhance the system and software deployment processes.",
-    "educational-requirements": "B.Sc in Computer Science",
+    "educationalRequirements": "B.Sc in Computer Science",
     "experience": "2 years",
-    "contact-information": {
+    "contactInformation": {
         "phone": "172-821-8052",
         "email": "jobs@google.com"
     }

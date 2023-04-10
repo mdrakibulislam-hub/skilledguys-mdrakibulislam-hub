@@ -1,17 +1,17 @@
 {
     "_id": 988947,
-    "company-logo": "https://i.ibb.co/hMv4rv8/airbnb.png",
-    "job-title": "Backend Engineer",
-    "company-name": "Airbnb",
-    "work-location": "Remote",
+    "companyLogo": "https://i.ibb.co/hMv4rv8/airbnb.png",
+    "jobTitle": "Backend Engineer",
+    "companyName": "Airbnb",
+    "workLocation": "Remote",
     "location": "San Francisco",
-    "time-type": "Part time",
+    "timeType": "Part time",
     "salary": 39000,
     "description": "Designing, developing, and maintaining the server-side of web applications. They work with other engineers and stakeholders to understand the requirements and develop software solutions that meet those requirements. They use programming languages, software development frameworks, and tools to write, test, and debug code for server-side applications. They also collaborate with other team members to ensure that the server-side applications are efficient, reliable, and scalable. Additionally, they keep up-to-date with emerging technologies and best practices in backend engineering and apply them to enhance backend development processes.",
     "responsibility": "Designing, developing, and maintaining server-side applications and APIs Writing clean, scalable, and optimized code using programming languages such as Java, Python, or Node.js Collaborating with other engineers and stakeholders to understand requirements and develop software solutions Ensuring that server-side applications are efficient, reliable, and scalable Testing and debugging code to ensure proper functionality and performance Identifying and addressing technical issues and bottlenecks in server-side applications Keeping up-to-date with emerging technologies and best practices in backend engineering Developing and maintaining database schemas, queries, and scripts Securing backend systems against potential security threats Documenting software design and development processes for future reference Participating in code reviews and ensuring that coding standards are followed.",
-    "educational-requirements": "B.Sc in Computer Science",
+    "educationalRequirements": "B.Sc in Computer Science",
     "experience": "4 years",
-    "contact-information": {
+    "contactInformation": {
         "phone": "820-945-4540",
         "email": "jobs@airbnb.com"
     }

@@ -1,6 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLocation, faDollarSign } from '@fortawesome/free-solid-svg-icons'
+import { faLocation, faDollarSign, faMap } from '@fortawesome/free-solid-svg-icons'
+import { Link } from 'react-router-dom';
 
 const JobsCard = ({ jobInfo }) => {
     const { _id, salary, companyLogo, companyName, jobTitle, workLocation, timeType, location, } = jobInfo
@@ -29,13 +30,17 @@ const JobsCard = ({ jobInfo }) => {
                 className='flex gap-2 text-base text-success font-medium my-4'
             >
                 <div>
-                    <FontAwesomeIcon icon={faLocation}></FontAwesomeIcon> {location}</div>
+                    <FontAwesomeIcon icon={faMap}></FontAwesomeIcon> {location}</div>
                 <div>
                     <FontAwesomeIcon icon={faDollarSign}></FontAwesomeIcon> {salary}</div>
             </div>
-            <button
-                className='btn-primary'
-            >View Details</button>
+
+
+            <Link to={`/${_id}`}>
+                <button
+                    className='btn-primary'
+                >View Details</button>
+            </Link>
 
         </div>
     );
