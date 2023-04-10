@@ -63,8 +63,8 @@ const Footer = () => {
             <div
                 className='flex justify-between default-container py-6'
             >
-                <p className='text-gray-500 text-sm'>@2023 CareerHub. All Rights Reserved</p>
-                <p className='text-gray-500 text-sm'>Powered by CareerHub</p>
+                <p className='text-gray-500 text-sm'>@2023 SkilledGuys. All Rights Reserved</p>
+                <p className='text-gray-500 text-sm'>Powered by SkilledGuys</p>
             </div>
 
         </div>

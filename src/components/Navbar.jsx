@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 <NavLink
     to="/messages"
@@ -18,7 +18,7 @@ const Navbar = () => {
             {/* navbar starts here */}
 
             <div className='bg-secondary'>
-                <div className="navbar default-container">
+                <div className="navbar default-container py-6">
                     <div className="navbar-start">
                         <div className="dropdown">
                             <label tabIndex={0} className="btn btn-ghost px-2 lg:hidden">
@@ -72,7 +72,7 @@ const Navbar = () => {
                                 </li>
                             </ul>
                         </div>
-                        <a className="btn btn-ghost p-0 normal-case text-3xl font-bold">SkilledGuys</a>
+                        <Link to='/' className="p-0 normal-case text-3xl font-bold">SkilledGuys</Link>
                     </div>
                     <div className="navbar-center hidden lg:flex">
                         <ul className="menu menu-horizontal px-1">

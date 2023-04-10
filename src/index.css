@@ -25,3 +25,7 @@
 .job-page-banner {
     background-image: url('/src/assets/job-page-bg.jpg');
 }
+
+.active {
+    @apply text-white
+}

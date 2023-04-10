@@ -61,7 +61,7 @@ const FullJobCard = () => {
                         <div
                             className='flex flex-col gap-1'
                         >
-                            <p className='mt-3'><FontAwesomeIcon icon={faDollarSign}></FontAwesomeIcon> <span className='font-bold'>Salary:</span> {jobData.salary}</p>
+                            <p className='mt-3'><FontAwesomeIcon icon={faDollarSign}></FontAwesomeIcon> <span className='font-bold'>Salary:</span> {jobData.salary} (Per Month)</p>
                             <p><FontAwesomeIcon icon={faCalendar}></FontAwesomeIcon> <span className='font-bold'>Job Title:</span> {jobData.jobTitle}</p>
                         </div>
 

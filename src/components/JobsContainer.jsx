@@ -1,9 +1,12 @@
 import React, { useContext } from 'react';
-import { allJobsContext } from '../App';
+import { allJobsContext, showAllJobsContext } from '../App';
 import JobsCard from './JobsCard';
 
 const JobsContainer = () => {
     const jobsContext = useContext(allJobsContext)
+    const showAllJobsFunction = useContext(showAllJobsContext)
+
+    console.log(showAllJobsContext);
 
     return (
 
@@ -30,9 +33,13 @@ const JobsContainer = () => {
                 {jobsContext.map(jobInfo => <JobsCard key={jobInfo._id} jobInfo={jobInfo}></JobsCard>)}
             </div>
 
-            <button
-                className='btn-primary mx-auto my-16'
-            >See All</button>
+            {jobsContext.length < 5 ?
+                <button
+                    onClick={showAllJobsFunction}
+                    className='btn-primary mx-auto my-16'
+                >See All</button> :
+                ""
+            }
 
         </div>
     );
