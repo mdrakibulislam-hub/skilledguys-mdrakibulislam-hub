@@ -1,0 +1,18 @@
+{
+    "_id": 579284,
+    "company-logo": "https://i.ibb.co/FJt2N2Z/tesla.png",
+    "job-title": "Software Engineer",
+    "company-name": "Tesla",
+    "work-location": "Onsite",
+    "location": "Headquarters location",
+    "time-type": "Part time",
+    "salary": 60000,
+    "description": "Developing, designing, and maintaining software applications. They work with other engineers and stakeholders to understand the requirements, design software solutions, and write, test, and debug code. They use programming languages, software development tools, and methodologies to create and maintain software applications that are reliable, efficient, and scalable. They also collaborate with other team members to ensure that software solutions meet the needs of end-users, are user-friendly, and are delivered on-time and within budget. Additionally, they keep up-to-date with emerging technologies and best practices in software engineering and apply them to enhance software development processes.",
+    "responsibility": "Analyzing user requirements and designing software solutions to meet those requirements Writing, testing, and debugging code for software applications Collaborating with other engineers and stakeholders to develop and refine software requirements Ensuring that software applications are efficient, reliable, and scalable Keeping up-to-date with emerging technologies and best practices in software engineering Providing support for deployed software applications, including bug fixes and performance improvements Participating in code reviews and ensuring that coding standards are followed Documenting software design and development processes for future reference Ensuring that software development projects are delivered on-time and within budget Continuously improving software development processes and methodologies to enhance software quality and efficiency.",
+    "educational-requirements": "B.Sc in Computer Science",
+    "experience": "2 years",
+    "contact-information": {
+        "phone": "137-175-8573",
+        "email": "jobs@tesla.com"
+    }
+}

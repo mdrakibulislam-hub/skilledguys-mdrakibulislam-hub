@@ -1,0 +1,182 @@
+[
+    {
+        "_id": 694452,
+        "company-logo": "https://i.ibb.co/NWjhMSh/ibm.png",
+        "job-title": "Data Scientist",
+        "company-name": "IBM",
+        "work-location": "Onsite",
+        "location": "Headquarters location",
+        "time-type": "Part time",
+        "salary": 40000,
+        "description": "skilled in mathematics, statistics, and computer science to extract insights and knowledge from large and complex data sets. can work on various tasks such as data cleaning and preprocessing, statistical analysis, machine learning, and data visualization.",
+        "responsibility": "Develop and implement data-driven solutions to solve complex business problems.Analyze large and complex data sets to identify patterns and insights that can drive business decisions. Build and deploy predictive models using machine learning algorithms. Collaborate with cross-functional teams to identify opportunities for data-driven solutions that can drive business growth. Communicate findings and insights to non-technical stakeholders in an easy-to-understand manner. Stay up-to-date with the latest developments in data science and machine learning to improve the quality of work. Continuously evaluate and improve the performance of models and algorithms. Identify and evaluate new data sources to improve the quality of data and analysis. Design and conduct experiments to test hypotheses and evaluate the effectiveness of models and algorithms. Apply statistical techniques to test the significance of findings and validate the accuracy of models",
+        "educational-requirements": "B.Sc in Computer Science",
+        "experience": "2 years",
+        "contact-information": {
+            "phone": "979-134-8803",
+            "email": "jobs@ibm.com"
+        }
+    },
+    {
+        "_id": 476311,
+        "company-logo": "https://i.ibb.co/wRB4QGk/netflix.png",
+        "job-title": "Data Scientist",
+        "company-name": "Netflix",
+        "work-location": "Remote",
+        "location": "Headquarters location",
+        "time-type": "Full time",
+        "salary": 55000,
+        "description": "skilled in mathematics, statistics, and computer science to extract insights and knowledge from large and complex data sets. can work on various tasks such as data cleaning and preprocessing, statistical analysis, machine learning, and data visualization.",
+        "responsibility": "Develop and implement data-driven solutions to solve complex business problems.Analyze large and complex data sets to identify patterns and insights that can drive business decisions. Build and deploy predictive models using machine learning algorithms. Collaborate with cross-functional teams to identify opportunities for data-driven solutions that can drive business growth. Communicate findings and insights to non-technical stakeholders in an easy-to-understand manner. Stay up-to-date with the latest developments in data science and machine learning to improve the quality of work. Continuously evaluate and improve the performance of models and algorithms. Identify and evaluate new data sources to improve the quality of data and analysis. Design and conduct experiments to test hypotheses and evaluate the effectiveness of models and algorithms. Apply statistical techniques to test the significance of findings and validate the accuracy of models",
+        "educational-requirements": "B.Sc in Computer Science",
+        "experience": "4 years",
+        "contact-information": {
+            "phone": "805-169-1716",
+            "email": "jobs@netflix.com"
+        }
+    },
+    {
+        "_id": 352025,
+        "company-logo": "https://i.ibb.co/WHn9fyr/disney.png",
+        "job-title": "Frontend Engineer",
+        "company-name": "Disney",
+        "work-location": "Onsite",
+        "location": "Headquarters location",
+        "time-type": "Part time",
+        "salary": 21000,
+        "description": "Developing and maintaining user-facing features for web applications using HTML, CSS, and JavaScript. work closely with UI/UX designers and back-end developers to implement designs and features that are functional and visually appealing. They write clean, efficient, and reusable code that adheres to industry standards and best practices, optimize web applications for speed and scalability, and troubleshoot and debug issues that arise in the front-end code. They also keep up-to-date with emerging trends and technologies in front-end development and apply them to enhance the user experience.",
+        "responsibility": "Develop and maintain user-facing features for web applications using HTML, CSS, and JavaScript. Collaborate with UI/UX designers and back-end developers to implement designs and features that are functional and visually appealing. Write clean, efficient, and reusable code that adheres to industry standards and best practices. Optimize web applications for maximum speed and scalability. Troubleshoot and debug issues that arise in the front-end code.Develop and maintain automated testing frameworks to ensure high-quality code. Keep up-to-date with emerging trends and technologies in front-end development and apply them to enhance the user experience. Work with cross-functional teams to understand business requirements and develop solutions that meet those needs. Participate in code reviews and provide feedback to other developers to improve the quality of code. Ensure that web applications are accessible and usable for all users, including those with disabilities.Continuously improve the performance and user experience of web applications through iterative development and testing.",
+        "educational-requirements": "B.Sc in Computer Science",
+        "experience": "4 years",
+        "contact-information": {
+            "phone": "902-243-6046",
+            "email": "jobs@disney.com"
+        }
+    },
+    {
+        "_id": 499244,
+        "company-logo": "https://i.ibb.co/nc4LN1j/weta.png",
+        "job-title": "DevOps Engineer",
+        "company-name": "Weta Digital",
+        "work-location": "Remote",
+        "location": "Headquarters location",
+        "time-type": "Part time",
+        "salary": 82000,
+        "description": "Developing and maintaining the infrastructure that supports software development, testing, and deployment. They work closely with software developers, system administrators, and other IT professionals to design, implement, and maintain automated deployment pipelines, build and release management systems, and monitoring and logging tools. They use scripting languages, configuration management tools, and cloud services to automate and streamline the deployment and management of applications, and ensure that systems are secure, reliable, and scalable. They also troubleshoot and resolve issues related to system and software deployments, and continuously improve the performance, efficiency, and reliability of software development and deployment processes.",
+        "responsibility": "Design, implement, and maintain automated deployment pipelines and build/release management systems Develop and maintain scripts and automation tools for system and software deployment, monitoring, and management Implement and manage configuration management tools, such as Ansible, Puppet, or Chef Work with software developers to ensure that applications are deployable, scalable, and secure Ensure that systems are continuously monitored for performance, security, and reliability Troubleshoot and resolve issues related to system and software deployments Continuously improve the performance, efficiency, and reliability of software development and deployment processes Keep up-to-date with emerging trends and technologies in DevOps and apply them to enhance the system and software deployment processes.",
+        "educational-requirements": "B.Sc in Computer Science",
+        "experience": "3 years",
+        "contact-information": {
+            "phone": "330-501-2033",
+            "email": "jobs@wetadigital.com"
+        }
+    },
+    {
+        "_id": 579284,
+        "company-logo": "https://i.ibb.co/FJt2N2Z/tesla.png",
+        "job-title": "Software Engineer",
+        "company-name": "Tesla",
+        "work-location": "Onsite",
+        "location": "Headquarters location",
+        "time-type": "Part time",
+        "salary": 60000,
+        "description": "Developing, designing, and maintaining software applications. They work with other engineers and stakeholders to understand the requirements, design software solutions, and write, test, and debug code. They use programming languages, software development tools, and methodologies to create and maintain software applications that are reliable, efficient, and scalable. They also collaborate with other team members to ensure that software solutions meet the needs of end-users, are user-friendly, and are delivered on-time and within budget. Additionally, they keep up-to-date with emerging technologies and best practices in software engineering and apply them to enhance software development processes.",
+        "responsibility": "Analyzing user requirements and designing software solutions to meet those requirements Writing, testing, and debugging code for software applications Collaborating with other engineers and stakeholders to develop and refine software requirements Ensuring that software applications are efficient, reliable, and scalable Keeping up-to-date with emerging technologies and best practices in software engineering Providing support for deployed software applications, including bug fixes and performance improvements Participating in code reviews and ensuring that coding standards are followed Documenting software design and development processes for future reference Ensuring that software development projects are delivered on-time and within budget Continuously improving software development processes and methodologies to enhance software quality and efficiency.",
+        "educational-requirements": "B.Sc in Computer Science",
+        "experience": "2 years",
+        "contact-information": {
+            "phone": "137-175-8573",
+            "email": "jobs@tesla.com"
+        }
+    },
+    {
+        "_id": 988947,
+        "company-logo": "https://i.ibb.co/hMv4rv8/airbnb.png",
+        "job-title": "Backend Engineer",
+        "company-name": "Airbnb",
+        "work-location": "Remote",
+        "location": "San Francisco",
+        "time-type": "Part time",
+        "salary": 39000,
+        "description": "Designing, developing, and maintaining the server-side of web applications. They work with other engineers and stakeholders to understand the requirements and develop software solutions that meet those requirements. They use programming languages, software development frameworks, and tools to write, test, and debug code for server-side applications. They also collaborate with other team members to ensure that the server-side applications are efficient, reliable, and scalable. Additionally, they keep up-to-date with emerging technologies and best practices in backend engineering and apply them to enhance backend development processes.",
+        "responsibility": "Designing, developing, and maintaining server-side applications and APIs Writing clean, scalable, and optimized code using programming languages such as Java, Python, or Node.js Collaborating with other engineers and stakeholders to understand requirements and develop software solutions Ensuring that server-side applications are efficient, reliable, and scalable Testing and debugging code to ensure proper functionality and performance Identifying and addressing technical issues and bottlenecks in server-side applications Keeping up-to-date with emerging technologies and best practices in backend engineering Developing and maintaining database schemas, queries, and scripts Securing backend systems against potential security threats Documenting software design and development processes for future reference Participating in code reviews and ensuring that coding standards are followed.",
+        "educational-requirements": "B.Sc in Computer Science",
+        "experience": "4 years",
+        "contact-information": {
+            "phone": "820-945-4540",
+            "email": "jobs@airbnb.com"
+        }
+    },
+    {
+        "_id": 690635,
+        "company-logo": "https://i.ibb.co/R0kqH9L/accenture.png",
+        "job-title": "Mobile Developer",
+        "company-name": "Accenture",
+        "work-location": "Onsite",
+        "location": "Dublin, Ireland.",
+        "time-type": "Part time",
+        "salary": 61000,
+        "description": "Designing, developing, and maintaining mobile applications for Android and/or iOS devices. They work with other engineers and stakeholders to understand the requirements and develop software solutions that meet those requirements. They use programming languages, software development frameworks, and tools to write, test, and debug code for mobile applications. They also collaborate with other team members to ensure that mobile applications are efficient, reliable, and scalable. Additionally, they keep up-to-date with emerging technologies and best practices in mobile app development and apply them to enhance mobile development processes.",
+        "responsibility": "Develop and maintain mobile applications for Android and/or iOS devices Collaborate with cross-functional teams to understand business requirements and user needs Write clean and efficient code using programming languages, software development frameworks, and tools Test and debug mobile applications to ensure functionality and reliability Optimize mobile applications for performance, scalability, and security Keep up-to-date with emerging technologies and trends in mobile app development Participate in code reviews and contribute to continuous improvement of development processes Troubleshoot and resolve technical issues related to mobile applications Document technical specifications and user guides for mobile applications Ensure compliance with mobile application development best practices and standards.",
+        "educational-requirements": "B.Sc in Computer Science",
+        "experience": "4 years",
+        "contact-information": {
+            "phone": "770-695-1821",
+            "email": "jobs@accenture.com"
+        }
+    },
+    {
+        "_id": 886767,
+        "company-logo": "https://i.ibb.co/LQsnDSw/google.png",
+        "job-title": "DevOps Engineer",
+        "company-name": "Google",
+        "work-location": "Remote",
+        "location": "United States.",
+        "time-type": "Full time",
+        "salary": 19000,
+        "description": "developing and maintaining the infrastructure that supports software development, testing, and deployment. They work closely with software developers, system administrators, and other IT professionals to design, implement, and maintain automated deployment pipelines, build and release management systems, and monitoring and logging tools. They use scripting languages, configuration management tools, and cloud services to automate and streamline the deployment and management of applications, and ensure that systems are secure, reliable, and scalable. They also troubleshoot and resolve issues related to system and software deployments, and continuously improve the performance, efficiency, and reliability of software development and deployment processes.",
+        "responsibility": "Design, implement, and maintain automated deployment pipelines and build/release management systems Develop and maintain scripts and automation tools for system and software deployment, monitoring, and management Implement and manage configuration management tools, such as Ansible, Puppet, or Chef Work with software developers to ensure that applications are deployable, scalable, and secure Ensure that systems are continuously monitored for performance, security, and reliability Troubleshoot and resolve issues related to system and software deployments Continuously improve the performance, efficiency, and reliability of software development and deployment processes Keep up-to-date with emerging trends and technologies in DevOps and apply them to enhance the system and software deployment processes.",
+        "educational-requirements": "B.Sc in Computer Science",
+        "experience": "2 years",
+        "contact-information": {
+            "phone": "172-821-8052",
+            "email": "jobs@google.com"
+        }
+    },
+    {
+        "_id": 202899,
+        "company-logo": "https://i.ibb.co/Qft9P6b/tcs.png",
+        "job-title": "Data Scientist",
+        "company-name": "TCS",
+        "work-location": "Onsite",
+        "location": "Mumbai, India.",
+        "time-type": "Part time",
+        "salary": 75000,
+        "description": "skilled in mathematics, statistics, and computer science to extract insights and knowledge from large and complex data sets. can work on various tasks such as data cleaning and preprocessing, statistical analysis, machine learning, and data visualization.",
+        "responsibility": "Develop and implement data-driven solutions to solve complex business problems.Analyze large and complex data sets to identify patterns and insights that can drive business decisions. Build and deploy predictive models using machine learning algorithms. Collaborate with cross-functional teams to identify opportunities for data-driven solutions that can drive business growth. Communicate findings and insights to non-technical stakeholders in an easy-to-understand manner. Stay up-to-date with the latest developments in data science and machine learning to improve the quality of work. Continuously evaluate and improve the performance of models and algorithms. Identify and evaluate new data sources to improve the quality of data and analysis. Design and conduct experiments to test hypotheses and evaluate the effectiveness of models and algorithms. Apply statistical techniques to test the significance of findings and validate the accuracy of models",
+        "educational-requirements": "B.Sc in Computer Science",
+        "experience": "2 years",
+        "contact-information": {
+            "phone": "939-849-1603",
+            "email": "jobs@tcs.com"
+        }
+    },
+    {
+        "_id": 562160,
+        "company-logo": "https://i.ibb.co/4RYZ5Dp/microsoft.png",
+        "job-title": "Frontend Engineer",
+        "company-name": "Microsoft",
+        "work-location": "Remote",
+        "location": "California",
+        "time-type": "Part time",
+        "salary": 97000,
+        "description": "Developing and maintaining user-facing features for web applications using HTML, CSS, and JavaScript. work closely with UI/UX designers and back-end developers to implement designs and features that are functional and visually appealing. They write clean, efficient, and reusable code that adheres to industry standards and best practices, optimize web applications for speed and scalability, and troubleshoot and debug issues that arise in the front-end code. They also keep up-to-date with emerging trends and technologies in front-end development and apply them to enhance the user experience.",
+        "responsibility": "Develop and maintain user-facing features for web applications using HTML, CSS, and JavaScript. Collaborate with UI/UX designers and back-end developers to implement designs and features that are functional and visually appealing. Write clean, efficient, and reusable code that adheres to industry standards and best practices. Optimize web applications for maximum speed and scalability. Troubleshoot and debug issues that arise in the front-end code.Develop and maintain automated testing frameworks to ensure high-quality code. Keep up-to-date with emerging trends and technologies in front-end development and apply them to enhance the user experience. Work with cross-functional teams to understand business requirements and develop solutions that meet those needs. Participate in code reviews and provide feedback to other developers to improve the quality of code. Ensure that web applications are accessible and usable for all users, including those with disabilities.Continuously improve the performance and user experience of web applications through iterative development and testing.",
+        "educational-requirements": "B.Sc in Computer Science",
+        "experience": "4 years",
+        "contact-information": {
+            "phone": "791-799-9605",
+            "email": "jobs@microsoft.com"
+        }
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "_id": 1,
+        "img": "https://i.ibb.co/3NPtN16/account.png",
+        "title": "Account & Finance",
+        "vacancy": 30
+    },
+    {
+        "_id": 2,
+        "img": "https://i.ibb.co/CsxdSrC/creative.png",
+        "title": "Creative Design",
+        "vacancy": 70
+    },
+    {
+        "_id": 3,
+        "img": "https://i.ibb.co/bzM1gf4/marketing.png",
+        "title": "Marketing & Sales",
+        "vacancy": 150
+    },
+    {
+        "_id": 4,
+        "img": "https://i.ibb.co/DVWdbfF/enginnering.png",
+        "title": "Engineering Job",
+        "vacancy": 120
+    }
+]
