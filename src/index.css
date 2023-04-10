@@ -13,3 +13,7 @@
 .banner {
     background-image: url('/src/assets/man.webp');
 }
+
+.card-outline-button {
+    @apply border border-[#7E90FE] text-[#7E90FE] py-1 px-2 rounded-md text-sm font-medium
+}

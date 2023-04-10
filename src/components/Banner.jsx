@@ -13,12 +13,12 @@ const Banner = () => {
                         Empowering job seekers <p className='text-primary'>worldwide.</p>
                     </h1>
                     <p
-                        className='font-medium text-base md:text-lg py-4 text-slate-500'
+                        className='font-medium text-base md:text-lg py-4 text-slate-500 hidden md:block'
                     >
                         Maximizing your job search potential. Finding the perfect job match for you. Helping you take the next step in your career.
                     </p>
                     <button
-                        className='btn-primary'
+                        className='btn-primary mt-4'
                     >
                         Get Started
                     </button>
