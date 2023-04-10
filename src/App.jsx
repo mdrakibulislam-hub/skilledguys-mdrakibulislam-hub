@@ -2,6 +2,7 @@ import { createContext, useEffect, useState } from 'react'
 import './App.css'
 import { Outlet, useLoaderData } from 'react-router-dom'
 import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 
 export const allJobsContext = createContext([])
 
@@ -17,6 +18,7 @@ function App() {
 
         <Navbar></Navbar>
         <Outlet></Outlet>
+        <Footer></Footer>
 
       </allJobsContext.Provider>
     </>
