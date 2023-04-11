@@ -36,7 +36,7 @@ const JobsCard = ({ jobInfo }) => {
             </div>
 
 
-            <Link to={`/${_id}`}>
+            <Link to={`../jobs/${_id}`}>
                 <button
                     className='btn-primary'
                 >View Details</button>

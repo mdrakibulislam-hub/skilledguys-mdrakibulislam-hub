@@ -1,4 +1,4 @@
-import { allJobs } from "../Loader";
+import { allJobs } from "./Loader";
 
 export const getAppliedData = () => {
     const appliedJobs = []

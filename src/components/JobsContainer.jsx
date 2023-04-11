@@ -1,9 +1,9 @@
 import React, { useContext } from 'react';
-import { allJobsContext, showAllJobsContext } from '../App';
+import { allJobsContext, dynamicJobsContext, showAllJobsContext } from '../App';
 import JobsCard from './JobsCard';
 
 const JobsContainer = () => {
-    const jobsContext = useContext(allJobsContext)
+    const jobsContext = useContext(dynamicJobsContext)
     const showAllJobsFunction = useContext(showAllJobsContext)
 
     console.log(showAllJobsContext);

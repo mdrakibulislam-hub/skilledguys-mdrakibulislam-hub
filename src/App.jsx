@@ -6,6 +6,7 @@ import Footer from './components/Footer'
 import toast, { Toaster } from 'react-hot-toast';
 
 export const allJobsContext = createContext([])
+export const dynamicJobsContext = createContext([])
 export const showAllJobsContext = createContext(null)
 
 function App() {
@@ -29,13 +30,16 @@ function App() {
 
   return (
     <>
-      <allJobsContext.Provider value={jobs}>
+      <allJobsContext.Provider value={jobsData}>
         <showAllJobsContext.Provider value={allDataShowFunction}>
+          <dynamicJobsContext.Provider value={jobs}>
 
-          <Navbar></Navbar>
-          <Outlet></Outlet>
-          <Footer></Footer>
+            <Navbar></Navbar>
+            <Outlet></Outlet>
+            <Footer></Footer>
 
+
+          </dynamicJobsContext.Provider>
         </showAllJobsContext.Provider>
       </allJobsContext.Provider>
       <Toaster />
