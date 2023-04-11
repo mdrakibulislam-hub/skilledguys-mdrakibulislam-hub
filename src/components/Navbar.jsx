@@ -123,7 +123,7 @@ const Navbar = () => {
                         </ul>
                     </div>
                     <div className="navbar-end">
-                        <Link to='#jobs-container' className="btn-primary">Start Applying</Link>
+                        <Link to='startapplying' className="btn-primary">Start Applying</Link>
                     </div>
                 </div>
             </div>

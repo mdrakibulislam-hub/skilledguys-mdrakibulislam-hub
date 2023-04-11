@@ -28,7 +28,7 @@ function App() {
 
   return (
     <>
-      <allJobsContext.Provider value={jobsData}>
+      <allJobsContext.Provider value={jobs}>
         <showAllJobsContext.Provider value={allDataShowFunction}>
 
           <Navbar></Navbar>
