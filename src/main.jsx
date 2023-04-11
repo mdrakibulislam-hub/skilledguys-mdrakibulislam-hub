@@ -16,6 +16,7 @@ import { getAppliedData } from './utils/GetFromStorage';
 import StartApplying from './components/StartApplying';
 import ErrorPage from './components/ErrorPage';
 import Statistics from './components/Statistics';
+import Loading from './components/Loading';
 
 const router = createBrowserRouter([
   {
@@ -29,7 +30,8 @@ const router = createBrowserRouter([
       { path: "statistics", element: <Statistics></Statistics> },
       { path: "jobs/:id", element: <FullJobCard></FullJobCard>, loader: ({ params }) => fetch(`/jobs${params.id}.json`) },
       { path: "appliedjobs", element: <AppliedJobs></AppliedJobs> },
-      { path: "startapplying", element: <StartApplying></StartApplying>, }
+      { path: "startapplying", element: <StartApplying></StartApplying>, },
+      { path: "loading", element: <Loading></Loading>, }
     ]
   }
 ])

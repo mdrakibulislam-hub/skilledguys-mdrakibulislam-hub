@@ -1,15 +1,23 @@
 import { createContext, useEffect, useState } from 'react'
 import './App.css'
-import { Outlet, useLoaderData } from 'react-router-dom'
+import { Outlet, useLoaderData, useNavigation } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import toast, { Toaster } from 'react-hot-toast';
+import Loading from './components/Loading'
 
 export const allJobsContext = createContext([])
 export const dynamicJobsContext = createContext([])
 export const showAllJobsContext = createContext(null)
 
 function App() {
+
+  const navigation = useNavigation()
+  console.log(navigation.state);
+
+  if (navigation.state === 'loading') {
+    return <Loading />
+  }
 
   const jobsData = useLoaderData()
 

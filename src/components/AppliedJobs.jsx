@@ -1,10 +1,18 @@
 import React, { useContext, useEffect, useState } from 'react';
 import { allJobsContext } from '../App';
-import { useLoaderData } from 'react-router-dom';
+import { useLoaderData, useNavigation } from 'react-router-dom';
 import AppliedJobsCard from './AppliedJobsCard';
 import toast, { Toaster } from 'react-hot-toast';
+import Loading from './Loading';
 
 const AppliedJobs = () => {
+
+    const navigation = useNavigation()
+    console.log(navigation.state);
+
+    if (navigation.state === 'loading') {
+        return <Loading />
+    }
 
     const allJobs = useContext(allJobsContext)
 

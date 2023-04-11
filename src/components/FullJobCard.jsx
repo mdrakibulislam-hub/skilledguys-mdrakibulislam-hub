@@ -1,12 +1,21 @@
 import React from 'react';
-import { useLoaderData } from 'react-router-dom';
+import { useLoaderData, useNavigation } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLocation, faDollarSign, faCalendar, faPhone, faEnvelope, faMap } from '@fortawesome/free-solid-svg-icons'
 import { applyBtnHandler } from '../utils/AddToStorage';
 import toast, { Toaster } from 'react-hot-toast';
+import Loading from './Loading';
 
 
 const FullJobCard = () => {
+
+    const navigation = useNavigation()
+    console.log(navigation.state);
+
+    if (navigation.state === 'loading') {
+        return <Loading />
+    }
+
     const jobData = useLoaderData()
     const { _id, companyLogo, jobTitle, companyName, workLocation, location, timeType, salary, description, responsibility, educationalRequirements, experience, contactInformation } = jobData
     console.log(jobData);
@@ -41,6 +50,7 @@ const FullJobCard = () => {
                         <hr className='mt-3' />
 
                         <div className='flex flex-col gap-1'>
+
                             <p className='mt-3'><FontAwesomeIcon icon={faDollarSign}></FontAwesomeIcon> <span className='font-bold'>Salary:</span> {salary} (Per Month)</p>
                             <p><FontAwesomeIcon icon={faCalendar}></FontAwesomeIcon> <span className='font-bold'>Job Title:</span> {jobTitle}</p>
                         </div>
