@@ -2,6 +2,8 @@ import React from 'react';
 import { useLoaderData } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLocation, faDollarSign, faCalendar, faPhone, faEnvelope, faMap } from '@fortawesome/free-solid-svg-icons'
+import { applyBtnHandler } from '../utils/AddToStorage';
+
 
 const FullJobCard = () => {
     const jobData = useLoaderData()
@@ -13,7 +15,7 @@ const FullJobCard = () => {
             >
                 <h1
                     className='default-container text-center text-4xl font-bold text-neutral'
-                >Job Details</h1>
+                >{jobData.companyName}</h1>
             </div >
             <div
                 className='default-container grid grid-cols-3 my-16 gap-8'
@@ -79,6 +81,7 @@ const FullJobCard = () => {
                     </div>
 
                     <button
+                        onClick={() => applyBtnHandler(jobData._id)}
                         className='btn-primary'
                     >
                         Apply Now

@@ -25,9 +25,10 @@ function App() {
   const allDataShowFunction = () => setJobs(jobsData)
 
 
+
   return (
     <>
-      <allJobsContext.Provider value={jobs}>
+      <allJobsContext.Provider value={jobsData}>
         <showAllJobsContext.Provider value={allDataShowFunction}>
 
           <Navbar></Navbar>

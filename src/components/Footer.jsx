@@ -4,10 +4,10 @@ import socialIcons from '../assets/social.png'
 const Footer = () => {
     return (
         <div
-            className='bg-neutral py-8'
+            className='bg-neutral py-8 mt-16'
         >
             <div
-                className='default-container justify-between gap-8 border-b border-gray-500 py-6 grid grid-cols-6'
+                className='default-container gap-8 border-b border-gray-500 py-6 grid md:grid-cols-6'
             >
                 <div className='flex flex-col gap-3 justify-center col-span-2 w-8/12'>
                     <h1
@@ -61,7 +61,7 @@ const Footer = () => {
             </div>
 
             <div
-                className='flex justify-between default-container py-6'
+                className='flex justify-between flex-wrap default-container py-6'
             >
                 <p className='text-gray-500 text-sm'>@2023 SkilledGuys. All Rights Reserved</p>
                 <p className='text-gray-500 text-sm'>Powered by SkilledGuys</p>

@@ -51,7 +51,7 @@ const Navbar = () => {
 
                                 <li>
                                     <NavLink
-                                        to="applied-jobs"
+                                        to="appliedjobs"
                                         className={({ isActive }) =>
                                             isActive ? "active" : ""
                                         }
@@ -101,7 +101,7 @@ const Navbar = () => {
 
                             <li>
                                 <NavLink
-                                    to="applied-jobs"
+                                    to="appliedjobs"
                                     className={({ isActive }) =>
                                         isActive ? "active" : ""
                                     }
@@ -123,7 +123,7 @@ const Navbar = () => {
                         </ul>
                     </div>
                     <div className="navbar-end">
-                        <a className="btn-primary">Start Applying</a>
+                        <Link to='#jobs-container' className="btn-primary">Start Applying</Link>
                     </div>
                 </div>
             </div>

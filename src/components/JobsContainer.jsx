@@ -10,7 +10,7 @@ const JobsContainer = () => {
 
     return (
 
-        <div className='default-container flex flex-col justify-center'>
+        <div id='jobs-container' className='default-container flex flex-col justify-center'>
 
             <div>
                 <h1
@@ -27,7 +27,7 @@ const JobsContainer = () => {
             </div>
 
             <div
-                className='grid grid-cols-2 gap-8'
+                className='grid md:grid-cols-2 gap-8'
             >
 
                 {jobsContext.map(jobInfo => <JobsCard key={jobInfo._id} jobInfo={jobInfo}></JobsCard>)}
@@ -36,7 +36,7 @@ const JobsContainer = () => {
             {jobsContext.length < 5 ?
                 <button
                     onClick={showAllJobsFunction}
-                    className='btn-primary mx-auto my-16'
+                    className='btn-primary mx-auto mt-16'
                 >See All</button> :
                 ""
             }

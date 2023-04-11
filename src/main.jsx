@@ -11,6 +11,9 @@ import Home from './components/Home';
 import { allJobs, categories } from './Loader';
 import Blog from './components/Blog';
 import FullJobCard from './components/FullJobCard';
+import AppliedJobs from './components/AppliedJobs';
+import { getAppliedData } from './utils/GetFromStorage';
+import StartApplying from './components/StartApplying';
 
 const router = createBrowserRouter([
   {
@@ -31,6 +34,14 @@ const router = createBrowserRouter([
         path: "/:id",
         element: <FullJobCard></FullJobCard>,
         loader: ({ params }) => fetch(`/jobs${params.id}.json`)
+      },
+      {
+        path: "appliedjobs",
+        element: <AppliedJobs></AppliedJobs>,
+      },
+      {
+        path: "startapplying",
+        element: <StartApplying></StartApplying>,
       }
     ]
   }

@@ -1,6 +1,9 @@
 import React from 'react';
+import { useLoaderData } from 'react-router-dom';
 
 const Blog = () => {
+    const allData = useLoaderData()
+    console.log(allData);
     return (
         <div
             className='default-container'
