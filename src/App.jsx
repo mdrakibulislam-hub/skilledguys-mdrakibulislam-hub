@@ -3,6 +3,7 @@ import './App.css'
 import { Outlet, useLoaderData } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
+import toast, { Toaster } from 'react-hot-toast';
 
 export const allJobsContext = createContext([])
 export const showAllJobsContext = createContext(null)
@@ -37,6 +38,7 @@ function App() {
 
         </showAllJobsContext.Provider>
       </allJobsContext.Provider>
+      <Toaster />
     </>
   )
 }

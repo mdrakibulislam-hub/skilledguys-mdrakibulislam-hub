@@ -3,6 +3,7 @@ import { useLoaderData } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLocation, faDollarSign, faCalendar, faPhone, faEnvelope, faMap } from '@fortawesome/free-solid-svg-icons'
 import { applyBtnHandler } from '../utils/AddToStorage';
+import toast, { Toaster } from 'react-hot-toast';
 
 
 const FullJobCard = () => {

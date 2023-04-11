@@ -2,6 +2,7 @@ import React, { useContext, useEffect, useState } from 'react';
 import { allJobsContext } from '../App';
 import { useLoaderData } from 'react-router-dom';
 import AppliedJobsCard from './AppliedJobsCard';
+import toast, { Toaster } from 'react-hot-toast';
 
 const AppliedJobs = () => {
 
@@ -36,6 +37,7 @@ const AppliedJobs = () => {
 
     const clearCartHandler = () => {
         localStorage.clear("appliedJobs")
+        toast.error("All Application Cleared")
         setAppliedJobs([])
     }
 
@@ -50,9 +52,9 @@ const AppliedJobs = () => {
                 <button
                     onClick={filterParttimeJobsHander}
                     className='btn-primary'>Filter by Part Time</button>
-                <button
+                {appliedJobs.length < 1 ? '' : <button
                     onClick={clearCartHandler}
-                    className='btn-primary'>Clear history</button>
+                    className='btn-primary'>Clear history</button>}
             </div>
             {
                 appliedJobs.length < 1 ? <h1 className='font-bold mt-8 text-4xl text-center'>Empty.</h1> : appliedJobs.map(jobs => <AppliedJobsCard key={jobs._id} jobs={jobs}></AppliedJobsCard>)
