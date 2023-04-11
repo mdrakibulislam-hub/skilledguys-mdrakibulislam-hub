@@ -10,6 +10,10 @@
     @apply btn bg-primary text-white normal-case border-none
 }
 
+.btn-warn {
+    @apply btn bg-primary text-white normal-case border-none bg-red-600
+}
+
 .banner {
     background-image: url('/src/assets/man.webp');
 }

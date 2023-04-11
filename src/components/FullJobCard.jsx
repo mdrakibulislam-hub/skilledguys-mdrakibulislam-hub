@@ -29,7 +29,7 @@ const FullJobCard = () => {
                 >{companyName}</h1>
             </div >
             <div
-                className='default-container grid grid-cols-3 my-16 gap-8'
+                className='default-container grid md:grid-cols-3 my-16 gap-8'
             >
                 <div className='col-span-2'>
                     <p className='text-justify'><span className='font-bold'>Job Description:</span>{description}</p>

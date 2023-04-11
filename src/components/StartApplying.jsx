@@ -17,7 +17,7 @@ const StartApplying = () => {
 
     return (
         <div
-            className='default-container grid grid-cols-2 gap-8 my-10'
+            className='default-container grid md:grid-cols-2 gap-8 my-10'
         >
             {
                 jobsContext.map(jobInfo => <JobsCard key={jobInfo._id} jobInfo={jobInfo}></JobsCard>)

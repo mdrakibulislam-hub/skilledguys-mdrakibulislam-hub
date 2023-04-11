@@ -33,13 +33,13 @@ const AppliedJobs = () => {
 
     }, [])
 
-    const filterFulltimeJobsHander = () => {
-        const filteredJobs = appliedJobs.filter(job => job.timeType === "Full time")
+    const filterOnsiteJobsHander = () => {
+        const filteredJobs = appliedJobs.filter(job => job.workLocation === "Onsite")
         setAppliedJobs(filteredJobs)
     }
 
-    const filterParttimeJobsHander = () => {
-        const filteredJobs = appliedJobs.filter(job => job.timeType === "Part time")
+    const filterRemoteJobsHander = () => {
+        const filteredJobs = appliedJobs.filter(job => job.workLocation === "Remote")
         setAppliedJobs(filteredJobs)
     }
 
@@ -52,22 +52,31 @@ const AppliedJobs = () => {
     console.log(appliedJobs);
 
     return (
-        <div className='default-container mt-8'>
-            <div className='flex gap-6 justify-end flex-wrap'>
-                <button
-                    onClick={filterFulltimeJobsHander}
-                    className='btn-primary'>Filter by Full Time</button>
-                <button
-                    onClick={filterParttimeJobsHander}
-                    className='btn-primary'>Filter by Part Time</button>
-                {appliedJobs.length < 1 ? '' : <button
-                    onClick={clearCartHandler}
-                    className='btn-primary'>Clear history</button>}
+
+        <>
+
+            <div className='bg-[#F9F8FF] h-72 flex justify-center items-center job-page-banner bg-no-repeat bg-fixed'>
+                <h1 className='default-container text-center text-4xl font-bold text-neutral'>Applied Jobs</h1>
+            </div >
+
+            <div className='default-container mt-8'>
+
+                <div className='flex gap-6 justify-end flex-wrap'>
+                    <button
+                        onClick={filterOnsiteJobsHander}
+                        className='btn-primary'>Filter Onsite Jobs</button>
+                    <button
+                        onClick={filterRemoteJobsHander}
+                        className='btn-primary'>Filter Remote Jobs</button>
+                    {appliedJobs.length < 1 ? '' : <button
+                        onClick={clearCartHandler}
+                        className='btn-warn'>Clear history</button>}
+                </div>
+                {
+                    appliedJobs.length < 1 ? <h1 className='font-bold mt-8 text-4xl text-center'>Empty.</h1> : appliedJobs.map(jobs => <AppliedJobsCard key={jobs._id} jobs={jobs}></AppliedJobsCard>)
+                }
             </div>
-            {
-                appliedJobs.length < 1 ? <h1 className='font-bold mt-8 text-4xl text-center'>Empty.</h1> : appliedJobs.map(jobs => <AppliedJobsCard key={jobs._id} jobs={jobs}></AppliedJobsCard>)
-            }
-        </div>
+        </>
     );
 };
 
