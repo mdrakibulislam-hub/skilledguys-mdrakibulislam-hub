@@ -34,11 +34,37 @@ const AppliedJobs = () => {
     }, [])
 
     const filterOnsiteJobsHander = () => {
+
+        const appliedJobs = []
+        const appliedJobsId = JSON.parse(localStorage.getItem("appliedJobs"));
+        if (appliedJobsId) {
+            for (const key of appliedJobsId) {
+                const isExist = allJobs.find(job => job._id === key);
+                if (isExist) {
+                    appliedJobs.push(isExist)
+                }
+            }
+        }
+        setAppliedJobs(appliedJobs)
+
         const filteredJobs = appliedJobs.filter(job => job.workLocation === "Onsite")
         setAppliedJobs(filteredJobs)
     }
 
     const filterRemoteJobsHander = () => {
+
+        const appliedJobs = []
+        const appliedJobsId = JSON.parse(localStorage.getItem("appliedJobs"));
+        if (appliedJobsId) {
+            for (const key of appliedJobsId) {
+                const isExist = allJobs.find(job => job._id === key);
+                if (isExist) {
+                    appliedJobs.push(isExist)
+                }
+            }
+        }
+        setAppliedJobs(appliedJobs)
+
         const filteredJobs = appliedJobs.filter(job => job.workLocation === "Remote")
         setAppliedJobs(filteredJobs)
     }

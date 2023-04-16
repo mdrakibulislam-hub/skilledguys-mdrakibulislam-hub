@@ -11,8 +11,8 @@ export const categoriesContext = createContext([])
 
 const Home = () => {
 
-    const jobsData = useContext(allJobsContext)
     const categoriesData = useLoaderData()
+    const jobsData = useContext(allJobsContext)
 
     return (
         <>

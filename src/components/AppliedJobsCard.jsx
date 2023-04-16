@@ -8,7 +8,7 @@ const AppliedJobsCard = ({ jobs }) => {
     const { _id, salary, companyLogo, companyName, jobTitle, workLocation, timeType, location, } = jobs
     return (
         <div className='flex justify-between items-center border-2 border-[#E8E8E8] p-8 rounded-md mt-8'>
-            <div className='grid grid-cols-2 gap-8 items-center' >
+            <div className='grid md:grid-cols-2 gap-8 items-center' >
                 <div
                     className='bg-secondary w-full h-full rounded-md flex'
                 >
